@@ -24,7 +24,6 @@ const App: React.FC = () => (
       <Works data={data.works} />
       <SideProject data={data.sideProject} />
       <Experience data={data.experience} />
-      {/* <h1 className={styles.mainBlock}>Hi JSX123！</h1> */}
     </div>
   </div>
 )

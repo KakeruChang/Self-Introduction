@@ -1,4 +1,10 @@
+import aifianLogo from '../assets/aifian.png'
 import info from '../assets/info.jpg'
+import side1 from '../assets/side1.png'
+import side2 from '../assets/side2.png'
+import side31 from '../assets/side3_1.jpg'
+import side32 from '../assets/side3_2.png'
+import side4 from '../assets/side4.png'
 import work11 from '../assets/work1-1.png'
 import work12 from '../assets/work1-2.png'
 import work2 from '../assets/work2.png'
@@ -12,11 +18,6 @@ import work36 from '../assets/work3_6.png'
 import work41 from '../assets/work4-1.png'
 import work42 from '../assets/work4-2.jpg'
 import work43 from '../assets/work4-3.jpg'
-import side1 from '../assets/side1.png'
-import side2 from '../assets/side2.png'
-import side31 from '../assets/side3_1.jpg'
-import side32 from '../assets/side3_2.png'
-import side4 from '../assets/side4.png'
 
 const data = {
   information: {
@@ -45,7 +46,8 @@ const data = {
         'Redux',
         'Next.js',
         'Typescript',
-        'ES6',
+        'Jest',
+        'detox',
         'Vue.js',
         'Vuex'
       ]
@@ -54,16 +56,35 @@ const data = {
       title: 'Layout / Service & Helper',
       content: [
         'styled-components',
-        'Bootstrap4',
-        'RWD',
-        'HTML5 / CSS3',
+        'Shopify / restyle',
+        'Bootstrap',
         'firebase',
-        'Git & Github',
+        'Git / Github / Gitlab',
         'yarn & npm'
       ]
     }
   ],
   works: [
+    {
+      title: 'aifian',
+      img: [aifianLogo],
+      company: 'Coumishe',
+      appLink: {
+        google:
+          'https://play.google.com/store/apps/details?id=com.adenovo.aifian&hl=zh_TW&gl=US&showAllReviews=true',
+        ios: 'https://apps.apple.com/tw/app/aifian/id1447838651'
+      },
+      descriptions: [
+        'collaborate with teams of front-end, back-end developers, designers and product managers to develop new features',
+        'rewrite old component from style-components to restyle design system for unifying UI style',
+        'rewrite old class component and HOC to function component and hook for reducing code',
+        'rewrite JavaScript file to TypeScript file for reducing error',
+        'write unit and end-to-end test to save testing time'
+      ],
+      type: 'App',
+      framework: 'React Native',
+      isTeam: true
+    },
     {
       title: 'elderly_housing',
       img: [work41, work42, work43],
@@ -74,7 +95,8 @@ const data = {
         'https://udn.com/newmedia/2021/elderly_housing/story'
       ],
       type: 'Web',
-      framework: 'Vue 2'
+      framework: 'Vue 2',
+      isTeam: false
     },
     {
       title: 'six-cities',
@@ -90,7 +112,8 @@ const data = {
         'https://vip.udn.com/newmedia/2021/cities/'
       ],
       type: 'Web',
-      framework: 'Vue 2'
+      framework: 'Vue 2',
+      isTeam: false
     },
     {
       title: '108-education-collection',
@@ -98,7 +121,8 @@ const data = {
       company: 'United Daily News',
       link: ['https://udn.com/newmedia/12-Year-Basic-education/'],
       type: 'Web',
-      framework: 'Vue 3'
+      framework: 'Vue 3',
+      isTeam: false
     },
     {
       title: '12-years-education',
@@ -109,7 +133,8 @@ const data = {
         'https://udn.com/newmedia/2020/12-years-education/poll'
       ],
       type: 'Web',
-      framework: 'Vue 2'
+      framework: 'Vue 2',
+      isTeam: false
     }
   ],
   sideProject: [
@@ -167,17 +192,20 @@ const data = {
   ],
   experience: [
     {
-      name: 'Software Engineer | Koumiisi Co., Ltd.',
+      name: 'Software Engineer | Coumishe Co., Ltd.',
       duration: 'Mar 2021 ~ Present',
-      content: ['React', 'React Native']
+      content: [
+        'Maintain aifian app and develop new features (React Native)',
+        'Collaborate with teams of front-end, back-end developers, designers and product managers'
+      ]
     },
     {
       name: 'Front-End Developer | United Daily News',
       duration: 'May 2020 ~ Mar 2021',
       content: [
-        'Collaborate with team of web designers and product team members to create new RWD Web Content using Vue',
+        'Collaborate with team of web designers and product team members to create new RWD web content with Vue',
         'Collaborate with back end developer',
-        'Maintaine and update content for existing website and common component'
+        'Maintain and update content for existing website and common component'
       ]
     },
     {

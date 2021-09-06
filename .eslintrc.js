@@ -26,10 +26,8 @@ module.exports = {
     }
   },
   rules: {
-    semi: ['error', 'never'],
+    'arrow-parens': 'off',
     'comma-dangle': ['error', 'never'],
-    'jsx-quotes': ['error', 'prefer-single'],
-    'react/jsx-filename-extension': [1, { extensions: ['.ts', '.tsx'] }],
     'import/extensions': [
       'error',
       'ignorePackages',
@@ -40,8 +38,14 @@ module.exports = {
         tsx: 'never'
       }
     ],
+    indent: 'off',
+    'jsx-quotes': ['error', 'prefer-single'],
     'no-unused-vars': 'off',
-    'arrow-parens': 'off',
-    'react/jsx-props-no-spreading': 'off'
+    'object-curly-newline': 'off',
+    'operator-linebreak': ['error', 'after'],
+    'react/jsx-filename-extension': [1, { extensions: ['.ts', '.tsx'] }],
+    'react/jsx-indent': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    semi: ['error', 'never']
   }
 }
