@@ -9,12 +9,12 @@ import work11 from '../assets/work1-1.png'
 import work12 from '../assets/work1-2.png'
 import work2 from '../assets/work2.png'
 import work3 from '../assets/work3.png'
-import work31 from '../assets/work3_1.png'
-import work32 from '../assets/work3_2.png'
-import work33 from '../assets/work3_3.png'
-import work34 from '../assets/work3_4.png'
-import work35 from '../assets/work3_5.png'
-import work36 from '../assets/work3_6.png'
+// import work31 from '../assets/work3_1.png'
+// import work32 from '../assets/work3_2.png'
+// import work33 from '../assets/work3_3.png'
+// import work34 from '../assets/work3_4.png'
+// import work35 from '../assets/work3_5.png'
+// import work36 from '../assets/work3_6.png'
 import work41 from '../assets/work4-1.png'
 import work42 from '../assets/work4-2.jpg'
 import work43 from '../assets/work4-3.jpg'
@@ -53,14 +53,12 @@ const data = {
       ]
     },
     {
-      title: 'Layout / Service & Helper',
+      title: 'Layout',
       content: [
+        'tailwind',
         'styled-components',
         'Shopify / restyle',
-        'Bootstrap',
-        'firebase',
-        'Git / Github / Gitlab',
-        'yarn & npm'
+        'Bootstrap'
       ]
     }
   ],
@@ -77,8 +75,8 @@ const data = {
       descriptions: [
         'collaborate with teams of front-end, back-end developers, designers and product managers to develop new features',
         'rewrite old component from style-components to restyle design system for unifying UI style',
-        'rewrite old class component and HOC to function component and hook for reducing code',
-        'rewrite JavaScript file to TypeScript file for reducing error',
+        'rewrite old class component and HOC to function component and hook',
+        'rewrite JavaScript file to TypeScript file',
         'write unit and end-to-end test to save testing time'
       ],
       type: 'App',
@@ -100,15 +98,18 @@ const data = {
     },
     {
       title: 'six-cities',
-      img: [work31, work32, work33, work34, work35, work36, work3],
+      img: [
+        // work31, work32, work33, work34, work35, work36,
+        work3
+      ],
       company: 'United Daily News',
       link: [
-        'https://vip.udn.com/newmedia/2021/cities/Taipei',
-        'https://vip.udn.com/newmedia/2021/cities/New-Taipei',
-        'https://vip.udn.com/newmedia/2021/cities/Taoyuan',
-        'https://vip.udn.com/newmedia/2021/cities/Taichung',
-        'https://vip.udn.com/newmedia/2021/cities/Tainan',
-        'https://vip.udn.com/newmedia/2021/cities/Kaohsiung',
+        // 'https://vip.udn.com/newmedia/2021/cities/Taipei',
+        // 'https://vip.udn.com/newmedia/2021/cities/New-Taipei',
+        // 'https://vip.udn.com/newmedia/2021/cities/Taoyuan',
+        // 'https://vip.udn.com/newmedia/2021/cities/Taichung',
+        // 'https://vip.udn.com/newmedia/2021/cities/Tainan',
+        // 'https://vip.udn.com/newmedia/2021/cities/Kaohsiung',
         'https://vip.udn.com/newmedia/2021/cities/'
       ],
       type: 'Web',
@@ -195,7 +196,8 @@ const data = {
       name: 'Software Engineer | Coumishe Co., Ltd.',
       duration: 'Mar 2021 ~ Present',
       content: [
-        'Maintain aifian app and develop new features (React Native)',
+        'Maintain aifian mobile app and develop new features (React Native)',
+        'develop CMS for aifian mobile app (React and Tailwind)',
         'Collaborate with teams of front-end, back-end developers, designers and product managers'
       ]
     },

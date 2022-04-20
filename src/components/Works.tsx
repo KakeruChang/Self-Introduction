@@ -82,7 +82,7 @@ const Works: FC<WorksProps> = (props: WorksProps) => {
                       {link && (
                         <a
                           href={link[i]}
-                          className='btn btn-primary'
+                          className='btn btn-outline-primary'
                           target='_blank'
                           rel='noopener noreferrer'
                         >
