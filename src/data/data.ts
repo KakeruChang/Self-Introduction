@@ -55,7 +55,7 @@ const data = {
     {
       title: 'Layout',
       content: [
-        'tailwind',
+        'Tailwind',
         'styled-components',
         'Shopify / restyle',
         'Bootstrap'
