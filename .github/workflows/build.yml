@@ -1,0 +1,27 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - feature/auto_deploy
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.13.0 # Replace with your desired Node.js version
+      - name: Install dependencies
+        run: yarn install
+      - name: Build
+        run: yarn build # Replace with your build command
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ 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 }}
+          publish_dir: ./dist # Replace with your build directory
+          publish_branch: gh-pages
