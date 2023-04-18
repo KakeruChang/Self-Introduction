@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - feature/auto_deploy
+      - master
 
 jobs:
   build-and-deploy:
@@ -22,6 +22,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ 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 }}
+          personal_token: ${{ secrets.AUTO_UPDATE_TOKEN }}
           publish_dir: ./dist # Replace with your build directory
           publish_branch: gh-pages
