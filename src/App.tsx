@@ -1,6 +1,5 @@
 import React from 'react'
 import 'bootstrap/scss/bootstrap.scss'
-import 'bootstrap/js/src/index'
 
 // import styles from './styles.scss'
 import data from './data/data'
