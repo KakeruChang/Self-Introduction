@@ -48,8 +48,7 @@ const data = {
         'Typescript',
         'Jest',
         'detox',
-        'Vue.js',
-        'Vuex'
+        'Vue.js'
       ]
     },
     {
