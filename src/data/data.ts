@@ -163,7 +163,8 @@ const data = {
         'Apply for your own account by clicking "申し込む" button, and complete the steps for registering.',
         'Log in and view detail  (such as circular progress bar which can reveal the data left ) in my page (マイページ)]'
       ],
-      demo: 'https://react-hook-demo.herokuapp.com/#/',
+      // demo: 'https://react-hook-demo.herokuapp.com/#/',
+      demo: '',
       demoPlace: 'Heroku',
       source: 'https://github.com/KakeruChang/react-hook-demo/tree/master'
     },
@@ -171,7 +172,8 @@ const data = {
       title: 'Imitating of 5xRuby',
       img: [side2],
       content: ['React hooks', 'Bootstrap4 / RWD', 'Webpack'],
-      demo: 'https://five-ruby-webpack.herokuapp.com/',
+      // demo: 'https://five-ruby-webpack.herokuapp.com/',
+      demo: '',
       demoPlace: 'Heroku',
       source: 'https://github.com/KakeruChang/5xruby-webpack'
     },
