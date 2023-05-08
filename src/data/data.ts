@@ -232,7 +232,7 @@ const data = {
     },
     {
       name: 'National Taiwan University',
-      duration: 'Sep 2009 ~ Jun 2012',
+      duration: 'Sep 2008 ~ Jun 2012',
       content: ['Bachelor of Science in Mathematics']
     }
   ]
