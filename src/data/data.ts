@@ -1,9 +1,9 @@
 import aifianLogo from '../assets/aifian.png'
 import info from '../assets/info.jpg'
-import side1 from '../assets/side1.png'
-import side2 from '../assets/side2.png'
-import side31 from '../assets/side3_1.jpg'
-import side32 from '../assets/side3_2.png'
+// import side1 from '../assets/side1.png'
+// import side2 from '../assets/side2.png'
+// import side31 from '../assets/side3_1.jpg'
+// import side32 from '../assets/side3_2.png'
 import side4 from '../assets/side4.png'
 import work11 from '../assets/work1-1.png'
 import work12 from '../assets/work1-2.png'
@@ -138,6 +138,23 @@ const data = {
     }
   ],
   sideProject: [
+    // URL Shortener
+    {
+      title: 'URL Shortener',
+      img: [],
+      content: [
+        'Next.js',
+        'React hooks / Redux',
+        'TypeScript',
+        'Redis / PostgreSQL',
+        'Validating URL.',
+        'Sign up and log in.',
+        'Edit Open Graph Metadata for the short URL.'
+      ],
+      demo: 'https://url-shortener-6owq.onrender.com/',
+      demoPlace: 'Render',
+      source: 'https://github.com/KakeruChang/urlshortener'
+    },
     {
       title: 'Use React Native to make an App without Expo',
       img: [side4],
@@ -151,46 +168,48 @@ const data = {
         'Redirect to detail as clicking on the notification'
       ],
       demo: 'https://ithelp.ithome.com.tw/users/20121828/ironman/3042'
-    },
-    {
-      title: 'Imitating of Linksmate',
-      img: [side1],
-      content: [
-        'React hooks / Redux',
-        'Bootstrap4 / RWD',
-        'firebase',
-        'Estimate the phone rate on homepage',
-        'Apply for your own account by clicking "申し込む" button, and complete the steps for registering.',
-        'Log in and view detail  (such as circular progress bar which can reveal the data left ) in my page (マイページ)]'
-      ],
-      // demo: 'https://react-hook-demo.herokuapp.com/#/',
-      demo: '',
-      demoPlace: 'Heroku',
-      source: 'https://github.com/KakeruChang/react-hook-demo/tree/master'
-    },
-    {
-      title: 'Imitating of 5xRuby',
-      img: [side2],
-      content: ['React hooks', 'Bootstrap4 / RWD', 'Webpack'],
-      // demo: 'https://five-ruby-webpack.herokuapp.com/',
-      demo: '',
-      demoPlace: 'Heroku',
-      source: 'https://github.com/KakeruChang/5xruby-webpack'
-    },
-    {
-      title: 'Japan Travel Website (with CMS)',
-      img: [side31, side32],
-      content: [
-        'Vue / Vuex',
-        'Bootstrap4 / RWD',
-        'firebase',
-        'user can either use keywords or choose area to find the spot they want to go',
-        'user who has the administration authority  can access to the CMS'
-      ],
-      demo: 'https://kakeruchang.github.io/shop_demo/#/HomePage',
-      demoPlace: 'Github Page',
-      source: 'https://github.com/KakeruChang/3.0test'
     }
+    // {
+    //   title: 'Imitating of Linksmate',
+    //   img: [side1],
+    //   content: [
+    //     'React hooks / Redux',
+    //     'Bootstrap4 / RWD',
+    //     'firebase',
+    //     'Estimate the phone rate on homepage',
+    //     'Apply for your own account by clicking "申し込む" button,
+    //      and complete the steps for registering.',
+    //     'Log in and view detail  (such as circular progress bar
+    //      which can reveal the data left ) in my page (マイページ)]'
+    //   ],
+    //   // demo: 'https://react-hook-demo.herokuapp.com/#/',
+    //   demo: '',
+    //   demoPlace: 'Heroku',
+    //   source: 'https://github.com/KakeruChang/react-hook-demo/tree/master'
+    // },
+    // {
+    //   title: 'Imitating of 5xRuby',
+    //   img: [side2],
+    //   content: ['React hooks', 'Bootstrap4 / RWD', 'Webpack'],
+    //   // demo: 'https://five-ruby-webpack.herokuapp.com/',
+    //   demo: '',
+    //   demoPlace: 'Heroku',
+    //   source: 'https://github.com/KakeruChang/5xruby-webpack'
+    // },
+    // {
+    //   title: 'Japan Travel Website (with CMS)',
+    //   img: [side31, side32],
+    //   content: [
+    //     'Vue / Vuex',
+    //     'Bootstrap4 / RWD',
+    //     'firebase',
+    //     'user can either use keywords or choose area to find the spot they want to go',
+    //     'user who has the administration authority  can access to the CMS'
+    //   ],
+    //   demo: 'https://kakeruchang.github.io/shop_demo/#/HomePage',
+    //   demoPlace: 'Github Page',
+    //   source: 'https://github.com/KakeruChang/3.0test'
+    // }
   ],
   experience: [
     {
